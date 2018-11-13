@@ -1,0 +1,48 @@
+PODS:
+  - IQKeyboardManagerSwift (6.1.1)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - SnapKit (4.2.0)
+  - SwiftRichString (2.0.5)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (~> 6.0)
+  - RealmSwift
+  - SnapKit (from `https://github.com/SnapKit/SnapKit`, branch `develop`)
+  - SwiftRichString (from `https://github.com/malcommac/SwiftRichString`, branch `develop`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  SnapKit:
+    :branch: develop
+    :git: https://github.com/SnapKit/SnapKit
+  SwiftRichString:
+    :branch: develop
+    :git: https://github.com/malcommac/SwiftRichString
+
+CHECKOUT OPTIONS:
+  SnapKit:
+    :commit: 2f5a5da2458a4ae0fcd7d4a27e98a54d7f235af1
+    :git: https://github.com/SnapKit/SnapKit
+  SwiftRichString:
+    :commit: 64e30d91929da61beae67db001bc33de1e37b213
+    :git: https://github.com/malcommac/SwiftRichString
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftRichString: a3ebe72b13db2e1b917cdbb6b44d817254a7ff73
+
+PODFILE CHECKSUM: 42f32c798d3339fd77e8372fcce500ff143ec7c1
+
+COCOAPODS: 1.5.3
